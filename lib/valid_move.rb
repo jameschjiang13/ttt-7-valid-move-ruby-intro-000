@@ -1,4 +1,4 @@
-def valid_move(board,index)
+def valid_move?(board,index)
   board[index].between?(0,8)
 end
 
